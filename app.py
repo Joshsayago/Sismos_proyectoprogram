@@ -20,13 +20,13 @@ col3.metric("Profundidad máxima", df["PROFUNDIDAD"].max())
 st.subheader("📊 Análisis interactivo")
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
-    "📈 Décadas",
+    " Décadas",
     "📊 Magnitud",
-    "🌋 Profundidad",
-    "🎯 Escala Richter",
+    " Profundidad",
+    " Escala Richter",
     "🗺️ Mapa",
-    "🔍 Relación de Variables",
-    "📝 Conclusiones"
+    " Relación de Variables",
+    " Conclusiones"
 ])
 
 # --- TAB 1: DÉCADAS ---
@@ -174,7 +174,7 @@ with tab6:
 
 # --- TAB 7: CONCLUSIONES ---
 with tab7:
-    st.subheader("📝 Conclusiones del análisis")
+    st.subheader("Conclusiones del análisis")
     st.success("La mayor cantidad de sismos registrados se concentra en magnitudes entre 4 y 5 Mw.")
     st.info("La mayoría de los eventos sísmicos presentan profundidades menores a 50 km.")
     st.warning("La década 2010-2019 registra el mayor número de sismos dentro del catálogo analizado.")
